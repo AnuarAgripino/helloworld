@@ -1,0 +1,63 @@
+html, body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #ffffff;
+    background-color: #0b0b0b;
+    width: 100%;
+    height: auto;
+}
+
+section {
+    text-align: center;
+}
+
+.container {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+h1::after {
+    content: '_';
+}
+
+h1::after {
+    font-size: 50px;
+    -webkit-animation-name: opacity;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: opacity;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes opacity {
+    0%,
+    100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
